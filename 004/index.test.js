@@ -20,14 +20,15 @@ describe('euler', function () {
     var expected = false
     expect(euler.palTest(1234)).toEqual(expected);
   });
-  xit('returns the largest palindrome made up of the product of two numbers of 2 digits long', function () {
+  it('returns the largest palindrome made up of the product of two numbers of 2 digits long', function () {
     var expected = 9009 
     expect(euler.largestPal(2)).toEqual(expected);
   });
 
-  xit('returns the largest palindrome made up of the product of two numbers 1 digit long', function () {
+  it('returns the largest palindrome made up of the product of two numbers 1 digit long', function () {
     var expected = 9
     expect(euler.largestPal(1)).toEqual(expected);
   });
 	
 });
+
